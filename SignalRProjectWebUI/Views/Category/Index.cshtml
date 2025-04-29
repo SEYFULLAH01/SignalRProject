@@ -32,6 +32,7 @@
 								@foreach (var item in Model)
 								{
 									<tr>
+                                        <td>@item.CategoryID</td>
 										<td>@item.CategoryName</td>
 										<td>@item.Status</td>
 										<td><a href="/Category/DeleteCategory/@item.CategoryID" class="btn btn-outline-danger">Sil</a></td>

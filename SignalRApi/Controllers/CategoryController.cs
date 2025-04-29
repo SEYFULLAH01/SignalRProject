@@ -23,7 +23,7 @@ namespace SignalRApi.Controllers
         {
             var value = _mapper.Map<List<ResultCategoryDto>>(_categoryService.TGetListAll());
             return Ok(value);
-        }     
+        }
 
         [HttpPost]
         public IActionResult CreateCategory(CreateCategoryDto createCategoryDto)
