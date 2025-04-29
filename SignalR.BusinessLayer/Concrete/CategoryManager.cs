@@ -32,6 +32,11 @@ namespace SignalR.BusinessLayer.Concrete
             return _categoryDal.GetByID(id);
         }
 
+        public int TCategoryCount()
+        {
+            return _categoryDal.CategoryCount();
+        }
+
         public List<Category> TGetListAll()
         {
             return _categoryDal.GetListAll();
@@ -40,6 +45,16 @@ namespace SignalR.BusinessLayer.Concrete
         public void TUpdate(Category entity)
         {
             _categoryDal.Update(entity);
+        }
+
+        public int TActiveCategoryCount()
+        {
+            return _categoryDal.ActiveCategoryCount();
+        }
+
+        public int TPassiveCategoryCount()
+        {
+            return _categoryDal.PassiveCategoryCount();
         }
     }
 }
