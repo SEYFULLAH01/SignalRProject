@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace SignalRWebUI.ViewComponents.LayoutComponents
+namespace SignalRProjectWebUI.ViewComponents.LayoutComponents
 {
     public class _LayoutHeaderPartialComponent : ViewComponent
     {

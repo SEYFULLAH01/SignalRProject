@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SignalRWebUI.Dtos.ContactDtos
+namespace SignalRProjectWebUI.Dtos.ContactDtos
 {
     public class UpdateContactDto
     {

@@ -1,8 +1,8 @@
-﻿namespace SignalRWebUI.Dtos.ProductDtos
+﻿namespace SignalRProjectWebUI.Dtos.ProductDtos
 {
     public class GetProductDto
     {
-        public int ProductId { get; set; }
+        public int ProductID { get; set; }
         public string ProductName { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }

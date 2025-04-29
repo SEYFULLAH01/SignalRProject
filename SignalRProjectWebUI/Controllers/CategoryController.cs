@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using SignalRWebUI.Dtos.CategoryDtos;
+using SignalRProjectWebUI.Dtos.CategoryDtos;
 using System.Text;
 
-namespace SignalRWebUI.Controllers
+namespace SignalRProjectWebUI.Controllers
 {
     public class CategoryController : Controller
     {

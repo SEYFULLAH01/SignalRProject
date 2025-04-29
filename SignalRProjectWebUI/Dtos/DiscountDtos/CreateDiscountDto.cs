@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SignalRWebUI.Dtos.DiscountDtos
+namespace SignalRProjectWebUI.Dtos.DiscountDtos
 {
     public class CreateDiscountDto
     {

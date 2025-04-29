@@ -1,5 +1,5 @@
 ﻿
-namespace SignalRWebUI.Dtos.ProductDtos
+namespace SignalRProjectWebUI.Dtos.ProductDtos
 {
     public class CreateProductDto
     {

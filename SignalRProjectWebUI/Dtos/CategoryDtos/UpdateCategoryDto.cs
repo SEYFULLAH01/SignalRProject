@@ -1,4 +1,4 @@
-﻿namespace SignalRWebUI.Dtos.CategoryDtos
+﻿namespace SignalRProjectWebUI.Dtos.CategoryDtos
 {
     public class UpdateCategoryDto
     {

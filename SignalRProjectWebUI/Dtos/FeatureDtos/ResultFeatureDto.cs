@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SignalRWebUI.Dtos.FeatureDtos
+namespace SignalRProjectWebUI.Dtos.FeatureDtos
 {
     public class ResultFeatureDto
     {
