@@ -11,10 +11,16 @@ using System.Threading.Tasks;
 
 namespace SignalR.DataAccessLayer.EntityFramework
 {
-    public class EfOrderDetailDal : GenericRepository<OrderDetail>, IOrderDetailDal
+    public class EfMenuTableDal : GenericRepository<MenuTable>, IMenuTableDal
     {
-        public EfOrderDetailDal(SignalRContext context) : base(context)
+        public EfMenuTableDal(SignalRContext context) : base(context)
         {
+        }
+
+        public int MenuTableCount()
+        {
+            using var context = new SignalRContext();
+            return context.MenuTables.Count();
         }
     }
 }

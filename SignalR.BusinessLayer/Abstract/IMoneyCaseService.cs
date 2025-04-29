@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SignalR.DataAccessLayer.Abstract
+namespace SignalR.BusinessLayer.Abstract
 {
-    public interface IOrderDetailDal:IGenericDal<OrderDetail>
+    public interface IMoneyCaseService : IGenericService<MoneyCase>
     {
+        decimal TTotalMoneyCaseAmount();
     }
 }
