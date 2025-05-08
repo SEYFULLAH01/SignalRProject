@@ -100,7 +100,6 @@ namespace SignalRApi.Hubs
             var values = _bookingService.TGetListAll();
             await Clients.All.SendAsync("ReceiveBookingList", values);
         }
-
         public async Task GetMenuTableStatus()
         {
             var value = _menuTableService.TGetListAll();
@@ -122,7 +121,6 @@ namespace SignalRApi.Hubs
             await Clients.All.SendAsync("ReceiveClientCount", clientCount);
             await base.OnDisconnectedAsync(exception);
         }
-
         public async Task SendNotification()
         {
             var value = _notificationService.TNotificationCountByStatusFalse();
@@ -131,5 +129,6 @@ namespace SignalRApi.Hubs
             var notifications = _notificationService.TGetAllNotificationByFalse();
             await Clients.All.SendAsync("ReceiveNotificationListByFalse", notifications);
         }
+
     }
 }
